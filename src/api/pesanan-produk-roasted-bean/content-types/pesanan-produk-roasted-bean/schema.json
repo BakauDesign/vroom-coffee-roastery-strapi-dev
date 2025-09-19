@@ -15,10 +15,6 @@
       "type": "string",
       "required": true
     },
-    "nomor_whatsapp": {
-      "type": "biginteger",
-      "required": true
-    },
     "alamat": {
       "type": "text",
       "required": true
