@@ -14,7 +14,7 @@
       "name": "Apache 2.0",
       "url": "https://www.apache.org/licenses/LICENSE-2.0.html"
     },
-    "x-generation-date": "2025-09-19T04:21:19.834Z"
+    "x-generation-date": "2025-09-19T04:33:52.759Z"
   },
   "x-strapi-config": {
     "plugins": [
@@ -7023,6 +7023,7 @@
           "data": {
             "required": [
               "nama_pembeli",
+              "nomor_whatsapp",
               "alamat",
               "status_pesanan",
               "nama_layanan_pengiriman",
@@ -7032,6 +7033,9 @@
             "type": "object",
             "properties": {
               "nama_pembeli": {
+                "type": "string"
+              },
+              "nomor_whatsapp": {
                 "type": "string"
               },
               "alamat": {
@@ -7133,6 +7137,7 @@
         "type": "object",
         "required": [
           "nama_pembeli",
+          "nomor_whatsapp",
           "alamat",
           "status_pesanan",
           "nama_layanan_pengiriman",
@@ -7147,6 +7152,9 @@
             "type": "string"
           },
           "nama_pembeli": {
+            "type": "string"
+          },
+          "nomor_whatsapp": {
             "type": "string"
           },
           "alamat": {
@@ -7491,6 +7499,9 @@
                 "nama_pembeli": {
                   "type": "string"
                 },
+                "nomor_whatsapp": {
+                  "type": "string"
+                },
                 "alamat": {
                   "type": "string"
                 },
@@ -7633,6 +7644,7 @@
           "data": {
             "required": [
               "nama_pembeli",
+              "nomor_whatsapp",
               "alamat",
               "catatan_kurir",
               "status_pesanan",
@@ -7643,6 +7655,9 @@
             "type": "object",
             "properties": {
               "nama_pembeli": {
+                "type": "string"
+              },
+              "nomor_whatsapp": {
                 "type": "string"
               },
               "alamat": {
@@ -7741,6 +7756,7 @@
         "type": "object",
         "required": [
           "nama_pembeli",
+          "nomor_whatsapp",
           "alamat",
           "catatan_kurir",
           "status_pesanan",
@@ -7756,6 +7772,9 @@
             "type": "string"
           },
           "nama_pembeli": {
+            "type": "string"
+          },
+          "nomor_whatsapp": {
             "type": "string"
           },
           "alamat": {
@@ -8095,6 +8114,9 @@
                   "type": "string"
                 },
                 "nama_pembeli": {
+                  "type": "string"
+                },
+                "nomor_whatsapp": {
                   "type": "string"
                 },
                 "alamat": {
