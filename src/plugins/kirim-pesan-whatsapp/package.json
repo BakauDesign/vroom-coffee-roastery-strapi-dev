@@ -16,6 +16,7 @@
     "dist"
   ],
   "scripts": {
+    "prebuild": "cd src/plugins/kirim-pesan-whatsapp && npm run build",
     "build": "strapi-plugin build",
     "watch": "strapi-plugin watch",
     "watch:link": "strapi-plugin watch:link",
