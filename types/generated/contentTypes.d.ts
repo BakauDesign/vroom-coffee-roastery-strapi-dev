@@ -473,7 +473,7 @@ export interface ApiPesananProdukToolPesananProdukTool
   attributes: {
     alamat: Schema.Attribute.Text & Schema.Attribute.Required;
     biaya_pengiriman: Schema.Attribute.BigInteger & Schema.Attribute.Required;
-    catatan_kurir: Schema.Attribute.Text & Schema.Attribute.Required;
+    catatan_kurir: Schema.Attribute.Text;
     createdAt: Schema.Attribute.DateTime;
     createdBy: Schema.Attribute.Relation<'oneToOne', 'admin::user'> &
       Schema.Attribute.Private;

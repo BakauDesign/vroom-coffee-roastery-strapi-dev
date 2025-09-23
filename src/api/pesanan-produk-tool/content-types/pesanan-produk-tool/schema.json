@@ -25,7 +25,7 @@
     },
     "catatan_kurir": {
       "type": "text",
-      "required": true
+      "required": false
     },
     "status_pesanan": {
       "type": "enumeration",

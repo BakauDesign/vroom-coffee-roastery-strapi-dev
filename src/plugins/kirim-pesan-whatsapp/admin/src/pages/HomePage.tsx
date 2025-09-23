@@ -159,7 +159,7 @@ const CoffeeTool = ({ fetchClient }: { fetchClient: FetchClient }) => {
             gap={{ initial: 6 }} 
             alignItems={{ initial: "flex-start"}}
         >
-            <Typography variant="alpha">Pesanan Produk Roasted Beans</Typography>
+            <Typography variant="alpha">Pesanan Produk Coffee Tool</Typography>
                     
             <Table colCount={COL_COUNT} rowCount={ROW_COUNT}>
                 <Thead>
